@@ -1,0 +1,22 @@
+Parameterization:
+No hardcoding of data inside the java classes
+Preferred to automate them by passing from an external resource testng.xml, excel...
+2 types:
+Static: - If it is common across multiple testcases Example: - url, username, password Dynamic
+
+Steps to implement Static Parameterization:
+Identify the data that are common across all the testcases
+Add parameter tag for each datas in the XML file ex:
+Map the parameters in the class using @Parameters ex: @Parameters({"url","username","password"})
+Note: The name should exactly match the names in the xml
+Use that parameters inside the method using arguments Note: Sequence matters but the name of the arguments does not matter
+Finally, replace the arguments with the hardcoded values
+Note: You should always run from the xml file when you use parameters
+
+Dynamic Parameterization:
+Identify the data that are need to be dynamic for the particular testcase ex: CreateLead : companyName, firstName, lastName, phoneNumber EditLead : phoneNumber,companyName
+Create a method sendData and annotate with @Dataprovider annotation and give a name for the DataProvider
+Create an Input array with rowCount and columnCount - add datas into the array with index starting from 0
+Return data back to the calling method
+Receive the data in the testcase uding dataProvider attribute
+Pass input arguments to the test method and replace all the hardcoded data
