@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T19:19:52 CDT" name="Suite" finished-at="2025-08-11T19:21:07 CDT" duration-ms="74906">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T19:19:52 CDT" name="Test" finished-at="2025-08-11T19:21:07 CDT" duration-ms="74906">
+      <class name="testcase.TC_001_LoginFunctionality">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_001_LoginFunctionality@128d2484]" started-at="2025-08-11T19:20:53 CDT" name="preConditions" finished-at="2025-08-11T19:21:04 CDT" duration-ms="10701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="loginFunctionality()[pri:0, instance:testcase.TC_001_LoginFunctionality@128d2484]" started-at="2025-08-11T19:21:04 CDT" name="loginFunctionality" finished-at="2025-08-11T19:21:06 CDT" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_001_LoginFunctionality@128d2484]" started-at="2025-08-11T19:21:06 CDT" name="postConditions" finished-at="2025-08-11T19:21:07 CDT" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_001_LoginFunctionality -->
+      <class name="testcase.TC_001_CreateLead">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcase.TC_001_CreateLead@1623b78d]" started-at="2025-08-11T19:19:52 CDT" name="preConditions" finished-at="2025-08-11T19:20:07 CDT" duration-ms="14617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createLead()[pri:0, instance:testcase.TC_001_CreateLead@1623b78d]" started-at="2025-08-11T19:20:07 CDT" name="createLead" finished-at="2025-08-11T19:20:53 CDT" duration-ms="46115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcase.TC_001_CreateLead@1623b78d]" started-at="2025-08-11T19:20:53 CDT" name="postConditions" finished-at="2025-08-11T19:20:53 CDT" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcase.TC_001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
